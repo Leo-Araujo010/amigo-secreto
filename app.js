@@ -27,7 +27,7 @@ function mostrarAmigos(){
 }
 
 function sortearAmigo() {
-    let quantidadeDeElementosNaLista = amigos.lenght;
+    let quantidadeDeElementosNaLista = amigos.length;
 
     if (quantidadeDeElementosNaLista == 0){
         alert(Erro)
