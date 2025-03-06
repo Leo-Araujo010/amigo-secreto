@@ -5,6 +5,7 @@ function adicionarAmigo(){
     let Amigo = document.querySelector('input').value;
     if (Amigo == '') {
         alert(Erro);
+        return;
     } else {
         amigos.push(Amigo);
         limparCampo();
@@ -23,6 +24,18 @@ function mostrarAmigos(){
         i++;
 
     }
+}
+
+function sortearAmigo() {
+    let quantidadeDeElementosNaLista = amigos.lenght;
+
+    if (quantidadeDeElementosNaLista == 0){
+        alert(Erro)
+        return;
+    }
+    let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)];
+    let mostrarResultado = document.querySelector('#resultado')
+    mostrarResultado.innerHTML = `O amigo sorteado foi ${amigoSorteado}!`
 }
 
 
