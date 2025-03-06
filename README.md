@@ -41,8 +41,12 @@ Você pode:
    ```bash
    git clone https://github.com/Leo-Araujo010/amigo-secreto.git
 
-2. Baixar o projeto em .zip e extraí-lo em alguma pasta local.
+2. **Baixar o projeto em .zip e extraí-lo em alguma pasta local.**
 
+
+3. **Acessar o link do site publicado**
+   ```bash
+   https://leo-araujo010.github.io/amigo-secreto/
 ---
 
 
